@@ -1,11 +1,35 @@
-.gallery {
+.container {
+  .gallery {
     width: 100%;
     display: flex;
-    padding: 1rem 0;
+    padding: 0;
+    overflow-x: scroll;
 
-    .ant-image {
-      .ant-image-img {
-          width: 100%;
+    .ant-card {
+      margin-right: 1rem;
+
+      .ant-card-cover {
+        .ant-image {
+          .ant-image-img {
+            width: 100%;
+            border-radius: 0;
+          }
+        }
+      }
+
+      .ant-card-body {
+        padding: 0.5rem;
+
+        .ant-card-meta-title {
+          font-size: 1.4rem;
+          margin-bottom: 0;
+        }
+
+        .ant-card-meta-description {
+          font-size: 1.2rem;
+          margin-bottom: 1rem;
+        }
       }
     }
   }
+}
