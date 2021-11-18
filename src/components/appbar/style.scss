@@ -1,0 +1,21 @@
+.appbar {
+  text-align: left;
+  padding: 0.75rem 0.5rem 0.75rem 0;
+  border-bottom: 0.1rem solid #e1e1e1;
+  display: flex;
+  height: 4rem;
+  line-height: 2rem;
+  overflow: hidden;
+  align-items: center;
+
+  .app-logo {
+    height: 80%;
+    padding: 0 1rem;
+  }
+
+  .app-name {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+}
