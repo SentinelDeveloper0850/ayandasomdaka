@@ -1,0 +1,11 @@
+.gallery {
+    width: 100%;
+    display: flex;
+    padding: 1rem 0;
+
+    .ant-image {
+      .ant-image-img {
+          width: 100%;
+      }
+    }
+  }
